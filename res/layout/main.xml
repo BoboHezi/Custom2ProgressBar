@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/bobo.custom2progressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <bobo.custom2progressbar.CustomProgress2Bar
+        android:id="@+id/progressbar01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        app:progresscolor="#ff0000"
+        app:secondprogresscolor="#44ff0000"
+        app:textcolor="#44ff0000" />
+
+</LinearLayout>
